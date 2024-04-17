@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Ecomerce.ViewModels.HangHoaVM>
+@{
+    ViewData["Title"] = "Hàng hóa";
+    Layout = "_DanhSachHangHoa";
+}
+
+@await Html.PartialAsync("ProductItem",Model)                                         
+
+
